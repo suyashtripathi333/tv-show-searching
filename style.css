@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color : white;
+   
+    /* background-color:; */
+    background-image:url(colage.jpg) ;
+    background-blend-mode: darken;
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+.container h1{
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.2rem;
+    text-align: center;
+
+
+}
+
+.container form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+
+.container form input{
+    padding: 0.5rem;    
+    border: none;
+    border-radius: 5px; 
+    outline: none;
+    font-size: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    width: 50rem;
+    height: 2rem;    
+    background-color: white;
+    color: black;
+    opacity: 1;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.showlist{
+    width: 100%;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   gap: 1rem;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.showcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+   gap: 1rem;
+    text-align: center;
+    background: #fff;
+    border: 5px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} 
+
+.showCard img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.showCard h1{
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.showCard p{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
